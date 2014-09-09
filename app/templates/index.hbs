@@ -1,0 +1,9 @@
+<div>
+
+    {{#each model}}
+      {{view "sticker" sticker=this store=store}}
+    {{/each}}
+
+    {{view "fridge" buttons=buttons store=store}}
+
+ </div>

@@ -1,0 +1,8 @@
+<div id="fridge">
+
+	{{#each buttons}}
+		<div {{action 'updateFridgeButton' this.id}} {{bind-attr id=name}} {{bind-attr class="name status"}}></div>
+	{{/each}}
+
+
+</div>

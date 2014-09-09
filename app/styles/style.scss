@@ -1,0 +1,194 @@
+$icon-font-path: "../styles/fonts/"; // Change the path to the fonts
+//@import "bootstrap-sass/lib/bootstrap";
+
+/* Put your CSS here */
+html, body {
+    margin: 30px 0;
+}
+
+#stickers-holder {
+  float: right;
+}
+
+.sticker-text {
+  word-break: break-all;
+}
+
+.tooltip {
+  display:none;
+  position:absolute;
+  border:1px solid #333;
+  background-color:#161616;
+  border-radius:5px;
+  padding:10px;
+  color:#fff;
+  font-size:12px Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.dialog-custom {
+  position: absolute;
+  margin: 10px auto;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: 500;
+}
+
+input {
+  width: 100%;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.flush--top {
+  margin-top: 0;  
+}
+
+#fridge {
+	background-image: url(/images/fridge.png);
+	background-size: 100%;
+	width:808px;
+	height: 1380px;
+}
+
+.sticker-holder {
+  width: 100px;
+  height: 100px;
+  float: right;
+  cursor: pointer;
+}
+
+.coffee, .milk, .water, .cookies{
+	display: inline-block;     position: relative;
+    background-size: 100%;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    top: 20px;
+}
+.milk.true {
+    left: 180px;
+    background-image: url(/images/milk_full.png);
+}
+
+.milk.false {
+    left: 180px;
+	background-image: url(/images/milk_none.png);
+}
+
+.coffee.true {
+    left: 110px;
+    background-image: url(/images/coffee_full.png);
+}
+
+.coffee.false {
+    left: 110px;
+	background-image: url(/images/coffee_none.png);
+}
+.water.true {
+    left: 250px;
+    background-image: url(/images/water_full.png);
+}
+
+.water.false {
+    left: 250px;
+	background-image: url(/images/water_none.png);
+}
+
+.cookies.true {
+    left: 310px;
+    background-image: url(/images/cookies_full.png);
+}
+
+.cookies.false {
+    left: 310px;
+	background-image: url(/images/cookies_none.png);
+}
+.complaint { background-color: #DF0101;
+    border-color: #DF0101;
+    color: #FFF;
+}
+
+.sticker-new-text {
+  width: 250px;
+  height: 150px;
+}
+
+.orange-sticker {
+  background-color: #fc8c00;
+  width: 150px;
+  height: 160px;
+  padding: 0.5em;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 10px 20px 0px;
+}
+
+.green-sticker {
+  background-color: #5dff01;
+  width: 150px;
+  height: 160px;
+  padding: 0.5em;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 10px 20px 0px;
+}
+
+.yelow-sticker {
+  background-color: #e3f106;
+  width: 150px;
+  height: 160px;
+  padding: 0.5em;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 10px 20px 0px;
+}
+
+.blue-sticker {
+  background-color: #8fd2ff;
+  width: 150px;
+  height: 160px;
+  padding: 0.5em;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 10px 20px 0px;
+  }
+.first-top-pad {
+  padding-top: 70px;
+}
+
+.double-top-pad {
+  padding-top: 380px;
+}
+
+.container {
+  margin-top : 60px;
+}
+
+.navbar  {
+  height : 80px;
+  padding: 10px;
+}
+
+.sticker-author {
+  color: black;
+  text-align: end;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  padding-left: 5px;
+}

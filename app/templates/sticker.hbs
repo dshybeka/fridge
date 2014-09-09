@@ -1,0 +1,8 @@
+<div class="sticker" {{action 'openModal' 'modalsticker' view.sticker}}>
+  <span  {{bind-attr title=view.sticker.title class=view.sticker.color}} {{bind-attr id=view.sticker.id}} >
+    <span class="sticker-text red" >{{view.sticker.title}}</span>
+    <span><em class="sticker-author">{{view.sticker.author}}</em></span>
+  </span>
+
+</div>
+
